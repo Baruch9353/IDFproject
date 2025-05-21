@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace IDFproject_2105
 {
-    internal interface TypeOfBomb
+    internal interface ITypeOfBomb
     {
+        string GetTypeOfBomb(string name);
     }
 }

@@ -8,5 +8,6 @@ namespace IDFproject_2105
 {
     internal interface ILeftAtacks
     {
+        int GetILeftAtacks(int num);
     }
 }
